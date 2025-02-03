@@ -15,6 +15,6 @@ bwa mem ~/tfm_eli/hg19/hg19.fa ~/FASTQ/RUN20190222-CGC63002/RB23049_S5_L001_R1_0
 #generamos un fichero de salida con formato SAM (.sam)
 # -t 4 para emplear 4 cpus
 
-La salida de el fichero sam es: MAPQ (0-60), cigar, 
+#La salida de el fichero sam es: MAPQ (0-60), cigar, 
 
  
