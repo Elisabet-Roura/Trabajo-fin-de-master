@@ -4,6 +4,7 @@
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
 
 #para descompirmir instruccions aqui : https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/
+gunzip file.fa.gz
 
 #para abrir ficheros comprimidos 
 zcat nombrearchivo
@@ -17,4 +18,17 @@ bwa mem ~/tfm_eli/hg19/hg19.fa ~/FASTQ/RUN20190222-CGC63002/RB23049_S5_L001_R1_0
 
 #La salida de el fichero sam es: MAPQ (0-60), cigar, 
 
- 
+#05/02/25
+
+#Tornar a descarregar genoma pero ara versio hg38, mateix proces que amb hg19
+#generar index 
+bwm index file.fa 
+
+
+#Descarregar docker 
+#indicacions https://www.kubelynx.com/article/how-install-docker-ubuntu-2404
+# systemtcl serveix per saber administrar servicios, comprobar estados, cambiar estados del sistema y trabajar con los archivos de configuración., per sortir ctrl + C
+
+
+
+
