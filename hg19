@@ -32,4 +32,12 @@ bwm index file.fa
 #Descarregar IGV ntegrative Genomics Viewer 
 https://igv.org/doc/desktop/#DownloadPage/
 
+#06/02·25
+
+#Tot el proces que s'ha de fer de SAM a Bam amb samtools
+
+samtools view -bS RB23049.sam > RB23049.bam
+samtools sort -T TEST RB23049.bam -o RB23049.sorted.bam 
+samtools index RB23049.sorted.bam 
+samtools view RB23049.sorted.bam chrM
 
