@@ -54,3 +54,16 @@ https://hub.docker.com/r/broadinstitute/gatk/
 #fastaqc
 sudo apt -y install fastqc
 
+#para instalar fastp he fet servir el mateix codi
+
+#installar PICARD
+#https://broadinstitute.github.io/picard/
+
+java -jar /path/to/picard.jar -h 
+java -jar $PICARD -h 
+
+
+#instalació de VEP
+#http://www.ensembl.org/info/docs/tools/vep/script/vep_download.html#docker
+docker pull ensemblorg/ensembl-vep
+
