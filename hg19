@@ -51,3 +51,6 @@ sh igv.sh
 #Instalación GATK 
 https://hub.docker.com/r/broadinstitute/gatk/
 
+#fastaqc
+sudo apt -y install fastqc
+
