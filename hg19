@@ -47,3 +47,7 @@ samtools view RB23049.sorted.bam chrM
 cd IGV_Linux_2.19.1_WithJava/
 cd IGV_Linux_2.19.1/
 sh igv.sh
+
+#Instalación GATK 
+https://hub.docker.com/r/broadinstitute/gatk/
+
