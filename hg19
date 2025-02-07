@@ -41,3 +41,9 @@ samtools sort -T TEST RB23049.bam -o RB23049.sorted.bam
 samtools index RB23049.sorted.bam 
 samtools view RB23049.sorted.bam chrM
 
+
+#Para abrir IGV 
+
+cd IGV_Linux_2.19.1_WithJava/
+cd IGV_Linux_2.19.1/
+sh igv.sh
